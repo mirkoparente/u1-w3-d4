@@ -14,6 +14,8 @@ h1 {
   text-transform: uppercase;
 }
 button {
+    display: block;
+    margin: auto;
   text-transform: uppercase;
   font-size: 1em;
   border-radius: 0.5em;
@@ -22,7 +24,7 @@ button {
 }
 .tombola {
     display: inline-block;
-    width: 483px;
+    width: 500px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.375);
   border-radius: 8px;
@@ -39,13 +41,14 @@ button {
   text-align: center;
   display: inline-block;
   width: 8%;
-  height: 6.5vh;
+  height: 6vh;
   border: 1px solid red;
   border-radius: 50%;
   box-shadow: 3px 3px 2px rgb(151, 86, 6);
 }
 #estratti{
-    width: 60%;
+    margin: auto;
+    width: 40%;
 }
 .none {
   display: none;
